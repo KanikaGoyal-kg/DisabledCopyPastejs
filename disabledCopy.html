@@ -11,8 +11,9 @@
             }
         </style>
     </head>
-
-    <body>
+    <!-- oncontextmenu will disable right click in our website. This is an event attribute
+    because it can be used as event in js and can be used as an attribute in tags -->
+    <body oncontextmenu="return false" oncopy="return false" onpaste="return false">  
         <form class="parent"> 
             <div>
                 <label>Enter your password</label>
